@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>dashboard</title>
+</head>
+<body>
+    <!--nvavbar-->
+    <nav class="navbar"> 
+        <h4>Dashboard</h4>
+        <div class="profil">
+            <span class="fas fa-search"></span>
+            <img class="profil-image"src="assets/img/PXL_20221205_143735322.PORTRAIT.jpg" width="120" height="120" alt="">
+            <p class="profil-name">Laurence Mak</p>
+        </div>
+    </nav>
+    <!--sidebar-->
+        <input type="checkbox" id="toggle">
+        <label class="side-toggle" for="toggle">
+            <span class="fas fa-bars"></span>
+        </label>
+
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <span class="fas fa-clipboard-list"></span>
+            <p>OverView</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-users"></span>
+            <p>Teams</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class=" fas fa-credit-card"></span>
+            <p>payement</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-chart-line"></span>
+            <p>statistics</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-id-card"></span>
+            <p>Contact</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-cog"></span>
+            <p>Setting</p>
+        </div>
+    </div>
+    <!--main dashboard-->
+    <main>
+        <div class="dashboard-container">
+            <!--  4cards top  -->
+            <div class="card total1">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>revenue</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>1,865,234 <span>USD</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total2">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Total Odrers</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>10,898 <span>Orders</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total3">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>customers</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>349 <span>Compagnies</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total4">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>daily orders</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>58 <span>Orders</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 cards bottom  -->
+            <div class="card detail">
+                <div class="detail-header">
+                    <h2> All Orders</h2>
+                    <button>see More</button>
+                </div>
+                <table>
+                    <tr>
+                        <th>Orders #</th>
+                        <th>Company Name</th>
+                        <th>Statics</th>
+                        <th>Total</th>
+                        <th>Created</th>
+                        <th>Last Updated</th>
+                    </tr>
+                    <tr>
+                        <td>#pw 001</td>
+                        <td>Potential corps</td>
+                        <td><span class="status onprogress"><i class="fas fa-circle"></i>Onprogress</span></td>
+                        <td>3,149.19 USD</td>
+                        <td>Apr 11,2022</td>
+                        <td>Today</td>
+                    </tr>
+                    <tr>
+                        <td>#wp 002</td>
+                        <td>Webcode</td>
+                        <td><span class="status confirmed"><i class="fas fa-circle"></i>Confirmed</span></td>
+                        <td>876.78 USD</td>
+                        <td>Mar 29,2022</td>
+                        <td>Yesterday</td>
+                    </tr>
+                    <tr>
+                        <td>#wp 003</td>
+                        <td>Coding time</td>
+                        <td><span class="status fulfilled"><i class="fas fa-circle"></i>Fulfilled</span></td>
+                        <td>876.78 USD</td>
+                        <td>feb 10,2020</td>
+                        <td>feb 21,2022</td>
+                    </tr>
+                    <tr>
+                        <td>#pw 004</td>
+                        <td>Potential corps</td>
+                        <td><span class="status onprogress"><i class="fas fa-circle"></i>Onprogress</span></td>
+                        <td>3,149.19 USD</td>
+                        <td>Apr 11,2022</td>
+                        <td>Today</td>
+                    </tr>
+                    <tr>
+                        <td>#wp 005</td>
+                        <td>Webcode</td>
+                        <td><span class="status confirmed"><i class="fas fa-circle"></i>Confirmed</span></td>
+                        <td>876.78 USD</td>
+                        <td>Mar 29,2022</td>
+                        <td>Yesterday</td>
+                    </tr>
+                    <tr>
+                        <td>#wp 006</td>
+                        <td>Coding time</td>
+                        <td><span class="status fulfilled"><i class="fas fa-circle"></i>Fulfilled</span></td>
+                        <td>876.78 USD</td>
+                        <td>feb 10,2020</td>
+                        <td>feb 21,2022</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card customer">
+                <h2>Sales Activities</h2>
+                <div class="customer-wrapper">
+                    <img class="customer-image" src="https://picsum.photos/200/200?random=2" alt="image">
+                    <div class="customer-name">
+                        <h4>Laurencian mak</h4>
+                        <p>lorem ipsum dolor sit aret.</p>
+                    </div>
+                    <p class="customer-date">Today</p>
+                </div>
+                <div class="customer-wrapper">
+                    <img class="customer-image" src="https://picsum.photos/200/200?random=1" alt="image">
+                    <div class="customer-name">
+                        <h4>dragonne</h4>
+                        <p>lorem ipsum dolor sit aret.</p>
+                    </div>
+                    <p class="customer-date">Yesterday</p>
+                </div>
+                <div class="customer-wrapper">
+                    <img class="customer-image" src="https://picsum.photos/200/200?random=3" alt="image">
+                    <div class="customer-name">
+                        <h4>dolor anet</h4>
+                        <p>lorem ipsum dolor sit aret.</p>
+                    </div>
+                    <p class="customer-date">22/02/2020</p>
+                </div>
+                <div class="customer-wrapper">
+                    <img class="customer-image" src="https://picsum.photos/200/200?random=4" alt="image">
+                    <div class="customer-name">
+                        <h4>ipsum volupta</h4>
+                        <p>lorem ipsum dolor sit aret.</p>
+                    </div>
+                    <p class="customer-date">13/10/2021</p>
+                </div>
+                <div class="customer-wrapper">
+                    <img class="customer-image" src="https://picsum.photos/200/200?random=5" alt="image">
+                    <div class="customer-name">
+                        <h4>mollitis rerun</h4>
+                        <p>lorem ipsum dolor sit aret.</p>
+                    </div>
+                    <p class="customer-date">Today</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
